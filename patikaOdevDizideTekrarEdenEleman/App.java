@@ -1,4 +1,4 @@
-package patikaOdevMaasHesapla;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -19,7 +19,7 @@ public class App {
 			System.out.print("please enter number: ");
 			array[i] = sc.nextInt();
 		}
-		// Array sinifinin sort methodu ile dizimizi sýraladik
+		// Array sinifinin sort methodu ile dizimizi sÃ½raladik
 		Arrays.sort(array);
 		// Arrays sinifimizin toString methodu ile arrayimizi ekrana bastik
 		System.out.println("array: " + Arrays.toString(array));
